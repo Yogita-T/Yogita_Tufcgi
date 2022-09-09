@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector and more designing</title>
+    <style>
+        .container{
+            border:2px solid red;
+            background-color: aqua;
+            padding:34px;
+            width:666px;
+            margin:34px auto;
+        }
+        a{
+            text-decoration: none;
+            color:black
+        }
+        a:hover{
+            color:cornflowerblue;
+            background-color: pink;
+        }
+        a:visited{
+              background-color:yellow;
+
+        }
+        a:active{
+               background-color:darkblue;
+        }
+        .btn{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background:red;
+            padding: 6px;
+            border:none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color:orange;
+            background-color: greenyellow;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi voluptates corrupti laborum exercitationem esse praesentium reiciendis neque unde, tempora fugit iste ut aut labore cum vitae quisquam. Rerum, facilis ut Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla dolor numquam accusamus mollitia at sint eum minus voluptates dignissimos iusto, soluta neque, optio est quam officiis aut ullam laudantium recusandae!</p>
+        <a href="https://facebook.com"class="btn">Read more</a>
+        <button
+            class="btn">Contact us</button>
+    
+    </div>
+</body>
+</html>
